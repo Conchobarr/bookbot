@@ -1,3 +1,3 @@
-Boot.dev project: Python Bookbot
+# bookbot
 
-First full project in git!
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
