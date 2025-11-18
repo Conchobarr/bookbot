@@ -3,9 +3,12 @@ def word_count(text):
     return num_words
 
 def get_character_count(text):
-    num_characters = {
-    }
+    num_characters = {}
     lowered_text = text.lower()
     for char in lowered_text:
-        num_characters[char] += 1
+        if char not in num_characters:
+            num_characters[f'{char}'] = 1
+        else:
+            num_characters[f'{char}'] += 1
+        
     return num_characters
